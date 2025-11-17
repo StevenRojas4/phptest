@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My PHP Website - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to My Website!</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="calculator.php">Calculator</a></li>
+            <li><a href="contact.php">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Hello, and thanks for visiting!</h2>
+        <p>This is the home page of my PHP project. You can explore the calculator feature or contact me using the links above.</p>
+    </main>
+
+    <footer>
+        <p>&copy; <?php echo date("Y"); ?> My PHP Website</p>
+    </footer>
+
+</body>
+</html>
