@@ -30,4 +30,10 @@
     <year>1960</year>
     <genre>Classic</genre>
   </book>
+  <book>
+    <title>The War of the Worlds</title>
+    <author>H.G. Wells</author>
+    <year>1898</year>
+    <genre>Science Fiction</genre>
+  </book>
 </catalog>
